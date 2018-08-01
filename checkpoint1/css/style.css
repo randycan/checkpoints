@@ -1,0 +1,16 @@
+.header {
+  height: 450px;
+  background-image: url("../imgastarinthemaking.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  width: 650px;
+  margin: 0 auto;
+}
+.title {
+  color: pink;
+  font-size: 200%;
+}
