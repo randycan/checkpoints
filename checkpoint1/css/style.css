@@ -1,16 +1,22 @@
-.header {
-  height: 450px;
-  background-image: url("../imgastarinthemaking.jpg");
-  display: flex;
+.title {
+  color: blue;
+  font-size: 100%;
   justify-content: center;
-  align-items: center;
+}
+p {
+  color: green;
+  font-size: 100%;
+}
+header {
+  width: 850px;
+  margin: 0 auto;
 }
 
 body {
-  width: 650px;
-  margin: 0 auto;
-}
-.title {
-  color: pink;
-  font-size: 200%;
+  height: 100%;
+  width: inherit;
+  background-image: url("../imgastarinthemaking.jpg");
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
