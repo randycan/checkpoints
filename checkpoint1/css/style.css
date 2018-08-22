@@ -1,16 +1,11 @@
 .header {
   width: 100%;
   background-color: pink;
-  min-height: 160px;
+  min-height: 100px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   margin: 10px;
-}
-
-p {
-  color: green;
-  font-size: 100%;
 }
 
 .headerlinks {
@@ -21,33 +16,49 @@ p {
   align-items: flex-end;
   flex-direction: row;
 }
+
 .headerlinks li {
   float: left;
   margin: 5px;
 }
 
 .firstcontainer {
+  background-color: lightblue;
   width: inherit;
-  min-height: 450px;
-  justify-content: flex-start;
+  min-height: inherit;
+  justify-content: space-around;
   flex-direction: row;
   display: flex;
   margin: 5px;
 }
-.container {
-  justify-content: flex-end;
-  flex-direction: row;
-  display: flex;
-}
-.aboutme {
-  max-width: 30%;
-  margin-left: 5px;
-}
 
+p {
+  color: darkblue;
+  border: 1px solid black;
+  background-color: yellow;
+  font-size: 100%;
+  align-items: center;
+}
+.secondcontainer {
+  background-color: violet;
+  width: inherit;
+  min-height: inherit;
+  margin: 5px;
+  border: solid black;
+}
 body {
   height: 80%;
   width: 100%;
-
   justify-content: flex-start;
   align-items: flex-start;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: pink;
+  justify-content: center;
+}
+h2 {
+  color: black;
 }
