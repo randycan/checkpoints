@@ -40,11 +40,13 @@ p {
   align-items: center;
 }
 .secondcontainer {
+  display: block;
   background-color: violet;
   width: inherit;
   min-height: inherit;
   margin: 5px;
   border: solid black;
+  align-content: center;
 }
 body {
   height: 80%;
